@@ -240,3 +240,17 @@ console.log(myArray)
 myArray.reverse()
 console.log(myArray)
 //yes mutating is redifining const variable.
+
+
+// Create a variable that contains an integer.
+// Write an if ... else statement that:
+// console.log()s "little number" if the number is entered is less than 100
+// console.log()s big number if the number is greater than or equal to 100.
+
+const number = 100;
+if(number < 100) {
+  console.log("little number")
+}
+else {
+  console.log("big number")
+}
