@@ -122,12 +122,39 @@ for(let i = 1; i <= 100; i++){
 
 for(let i = 1; i <= 100; i++){
   if(i % 5 === 0){
-    console.log("I found a", i, "number. high five!")
+    //console.log("I found a", i, "number. high five!")
   }
   // Add to the code from above to print out "I found a number. Three is a crowd" if the number
   //  is a multiple of three
   if(i % 3 === 0){
-    console.log("I found a", i, "Three is a crowd")
+    //console.log("I found a", i, "Three is a crowd")
   }
-
 }
+
+
+//Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
+
+function sumAll(num){
+  let total = 0;
+  for(let i = 0; i <= num; i++){
+    total += i
+  }
+  return total
+}
+
+let bank_account = sumAll(10)
+console.log(bank_account)
+
+
+//You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all
+// the numbers between 1 - 100 multiplied by 2
+
+function double(num){
+  let total = 0;
+  for(let i = 0; i <= num; i++){
+    total += i * 2
+  }
+  return total;
+}
+let bank_acct = double(100)
+console.log(bank_acct)
