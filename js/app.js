@@ -175,7 +175,7 @@ function sumThreeFive(num){
   return result
 }
 
-console.log(sumThreeFive(1000))
+//console.log(sumThreeFive(1000))
 
 // You just solved Project Euler problem 1!
 //
@@ -195,3 +195,15 @@ console.log(sumThreeFive(1000))
 
 // Create an array that contains three quotes and store it in a variable called quotes.
 const quotes = ["that's my spot", "cool cool cool cool", "just do it"]
+
+// Given the following array const randomThings = [1, 10, "Hello", true]
+// How do you access the 1st element in the array?
+// Change the value of "Hello" to "World".
+// Check the value of the array to make sure it updated the array. How? Why, yes! console.log();
+
+const randomThings = [1,10,"hello",true];
+
+console.log(randomThings[0])
+
+randomThings[2] = "World"
+console.log(randomThings)
