@@ -191,3 +191,7 @@ console.log(sumThreeFive(1000))
 // no
 // What real-life thing could you model with an array?
 //let classroom = ["students","laptop"]
+
+
+// Create an array that contains three quotes and store it in a variable called quotes.
+const quotes = ["that's my spot", "cool cool cool cool", "just do it"]
