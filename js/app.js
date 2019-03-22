@@ -105,5 +105,14 @@ for(let i = 10; i <= 400; i++){
 }
 
 for(let i = 12; i <= 40; i+=3){
-  console.log(i)
+  //console.log(i)
+}
+
+// Print out the even numbers that are within the range of 1 - 100.
+// Adjust your code to add a message next to even numbers only that says: "<-- is an even number
+
+for(let i = 1; i <= 100; i++){
+  if (i % 2 === 0) {
+    console.log(i,"<--is an even")
+  }
 }
