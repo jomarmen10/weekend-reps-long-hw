@@ -281,3 +281,13 @@ if(number < 5){
 
 //////I've DONE it////////////
 // Do you think you could write a function called printGreeting with a parameter name that returns a greeting with the argument interpolated into the greeting?
+
+
+// Write a function printCool that accepts one parameter, name as an argument. The function should
+// print the name and a message saying that that person is cool.
+
+function printCool(str){
+  console.log(str, "is cool")
+}
+let name = "batman";
+//printCool(name)
