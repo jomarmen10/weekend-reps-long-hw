@@ -203,7 +203,19 @@ const quotes = ["that's my spot", "cool cool cool cool", "just do it"]
 
 const randomThings = [1,10,"hello",true];
 
-console.log(randomThings[0])
+//console.log(randomThings[0])
 
 randomThings[2] = "World"
-console.log(randomThings)
+//console.log(randomThings)
+
+
+// Given the following array
+ const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+// What would you write to access the 3rd element of the array?
+// Change the value of "Github" to "Octocat"
+// Add a new element, "Cloud City" to the array.
+
+ourClass[2];
+ourClass[4] = "octocat";
+ourClass.push("cloud city")
+console.log(ourClass)
