@@ -85,8 +85,25 @@ let animal = "cow";
 
 const age = 5;
 if (age >= 16){
-  console.log("here are the keys")
+  //console.log("here are the keys")
 }
 else {
-  console.log("sorry, your're too young")
+  //console.log("sorry, your're too young")
+}
+
+
+// Write a loop that will print out all the numbers from 0 to 10, inclusive.
+// Write a loop that will print out all the numbers from 10 up to and including 400.
+// Write a loop that will print out every third number starting with 12 and going no higher than 4000.
+
+for(let i = 0; i <= 10; i++){
+  //console.log(i)
+}
+
+for(let i = 10; i <= 400; i++){
+  //console.log(i)
+}
+
+for(let i = 12; i <= 40; i+=3){
+  console.log(i)
 }
