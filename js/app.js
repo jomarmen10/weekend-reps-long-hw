@@ -300,4 +300,19 @@ function calculateCube(num){
   console.log(Math.pow(num,3))
 }
 
-calculateCube(6)
+//calculateCube(6)
+
+
+// Write a function isVowel that takes a character (i.e. a string of length 1) and returns true if
+// it is a vowel, false otherwise. The vowel could be upper or lower case.
+
+function isVowel(str){
+  let newStr = str.toLowerCase()
+  let vowel = ["a","e","i","o","u"];
+  if(vowel.includes(newStr)){
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(isVowel("l"))
