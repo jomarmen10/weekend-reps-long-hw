@@ -236,9 +236,9 @@ myArray.push("egon");
 myArray.push("another one")
 myArray.shift()
 myArray.unshift("bob marley")
-console.log(myArray)
+//console.log(myArray)
 myArray.reverse()
-console.log(myArray)
+//console.log(myArray)
 //yes mutating is redifining const variable.
 
 
@@ -261,11 +261,11 @@ else {
 // Otherwise, log "monkey".
 
 if(number < 5){
-  console.log("little number");
+  //console.log("little number");
 } else if ( number > 10){
-  console.log("big number")
+  //console.log("big number")
 } else {
-  console.log("monkey")
+  //console.log("monkey")
 }
 
 ///////I've DONE it///////////////
@@ -291,3 +291,13 @@ function printCool(str){
 }
 let name = "batman";
 //printCool(name)
+
+
+// Write a function calculateCube that takes a single number and prints the volume of a cube made
+//from that number.
+
+function calculateCube(num){
+  console.log(Math.pow(num,3))
+}
+
+calculateCube(6)
