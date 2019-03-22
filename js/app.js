@@ -71,9 +71,22 @@ const e = 'Kevin';
 // it will print "Hey! You're not a cow."
 
 let animal = "cow";
-if (animal == "cow"){
-  console.log("mooo")
+// if (animal == "cow"){
+//   console.log("mooo")
+// }
+// else {
+//   console.log("hey! You're not a cow")
+// }
+
+
+// Make a variable that will hold a person's age. Be semantic.
+// Write code that will print out "Here are the keys", if the age is 16 years or older.
+// If the age is younger than 16, a message should print "Sorry, you're too young."
+
+const age = 5;
+if (age >= 16){
+  console.log("here are the keys")
 }
 else {
-  console.log("hey! You're not a cow")
+  console.log("sorry, your're too young")
 }
