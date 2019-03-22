@@ -277,3 +277,7 @@ if(number < 5){
 // Access one item from Thom's accessories array.
 // Log a sentence about what Thom's wearing. Example: "Thom is looking fierce in a grey button-up, jeans and wool scarf!"
 // Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas.
+
+
+//////I've DONE it////////////
+// Do you think you could write a function called printGreeting with a parameter name that returns a greeting with the argument interpolated into the greeting?
