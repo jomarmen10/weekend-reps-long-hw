@@ -218,4 +218,25 @@ randomThings[2] = "World"
 ourClass[2];
 ourClass[4] = "octocat";
 ourClass.push("cloud city")
-console.log(ourClass)
+//console.log(ourClass)
+
+
+// Given the following array:
+
+const myArray = [5, 10, 500, 20]
+
+// Add the string "Egon" to the end of the array. Add another string of your choice to the end of the array.
+// Remove the 5 from the beginning of the array.
+// Add the string "Bob Marley" to the beginning of the array.
+// Remove the string of your choise from the end of the array.
+// Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean?
+// Did the .reverse() method return anything?
+
+myArray.push("egon");
+myArray.push("another one")
+myArray.shift()
+myArray.unshift("bob marley")
+console.log(myArray)
+myArray.reverse()
+console.log(myArray)
+//yes mutating is redifining const variable.
