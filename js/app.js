@@ -183,3 +183,11 @@ console.log(sumThreeFive(1000))
 // This problem was on a previous assignment. You may skip it if you've already done it, just include a
 // comment saying that you've already done it. If you've now done the problem twice, perhaps next
 //  time you'll read the whole problem before starting it.
+
+
+// What are the things in an array called?
+// value
+// Do Arrays guarantee those things will be in order?
+// no
+// What real-life thing could you model with an array?
+//let classroom = ["students","laptop"]
