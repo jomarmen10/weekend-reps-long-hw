@@ -342,4 +342,15 @@ function getMultipleLenth(str){
   }
   return result
 }
-console.log(getMultipleLenth(["hell","hello","he"]))
+// console.log(getMultipleLenth(["hell","hello","he"]))
+
+// Define a function maxOfThree that takes three numbers as arguments and returns the largest of them.
+// If all numbers are the same, it doesn't matter which one is returned. If the two largest numbers are
+// the same, one of them should be returned.
+
+function maxOfThree(num1, num2, num3){
+  let allNum = [ num1 , num2, num3]
+  let result = allNum.sort();
+  return result[result.length-1]
+}
+console.log(maxOfThree(8,7,4))
