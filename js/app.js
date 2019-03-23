@@ -324,6 +324,9 @@ function isVowel(str){
 //   the corresponding string.
 
 function getTwoLengths(str, str1){
-  console.log(str.length, str1.length)
-
+  let result = [];
+  result.push(str.length, str.length)
+  return result;
 }
+
+console.log(getTwoLengths("hank","hell"))
