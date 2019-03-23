@@ -315,4 +315,15 @@ function isVowel(str){
     return false;
   }
 }
-console.log(isVowel("l"))
+// console.log(isVowel("l"))
+
+
+//
+// Write a function getTwoLengths that accepts two parameters (strings).
+//  The function should return an array of numbers where each number is the length of
+//   the corresponding string.
+
+function getTwoLengths(str, str1){
+  console.log(str.length, str1.length)
+
+}
