@@ -370,4 +370,18 @@ function printLongestWord(arrString){
   return result;
 }
 
-console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]))
+// console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]))
+
+
+// Write a Javascript function called transmogrify. This function should accept three arguments,
+//  which you can assume will be numbers. Your function should return the "transmogrified" result.
+// The transmogrified result of three numbers is the product of the first two numbers,
+//  raised to the power of the third number.
+// For example, the transmogrified result of 5, 3, and 2 is (5 times 3) to the power of 2 is 225.
+
+function transmogrify(num1, num2, num3){
+  let multiply = (num1 * num2)
+  return Math.pow(multiply,num3)
+}
+
+console.log(transmogrify(5,3,2))
