@@ -329,4 +329,17 @@ function getTwoLengths(str, str1){
   return result;
 }
 
-console.log(getTwoLengths("hank","hell"))
+//console.log(getTwoLengths("hank","hell"))
+
+// Write a function getMultipleLengths that accepts a single parameter as an argument: an array
+// of strings. The function should return an array of numbers where each number is the length of
+// the corresponding string.
+
+function getMultipleLenth(str){
+  let result = [];
+  for(let i = 0; i < str.length; i++){
+    result.push(str[i].length)
+  }
+  return result
+}
+console.log(getMultipleLenth(["hell","hello","he"]))
