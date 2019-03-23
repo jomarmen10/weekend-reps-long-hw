@@ -384,4 +384,20 @@ function transmogrify(num1, num2, num3){
   return Math.pow(multiply,num3)
 }
 
-console.log(transmogrify(5,3,2))
+//console.log(transmogrify(5,3,2))
+
+
+// Without using .split(), .reverse(), or .join(), write a function reverseWordOrder
+//  that accepts a single argument, a string. The function should return a string with the order
+//   of the words reversed. Don't worry about punctuation.
+
+
+function reverseWordOrder(string){
+  let result = "";
+  for(let i = string.length-1; i >= 0; i--){
+    result += string[i];
+  }
+  return result;
+}
+
+console.log(reverseWordOrder("omay"))
