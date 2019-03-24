@@ -459,5 +459,14 @@ const user = {
   name: "jomar",
   email: "sample@gmail.com",
   age: "25",
-  purchased: [];
+  purchased: []
 }
+
+// Our user has changed his or her email address. Without changing the original user object,
+// update the email value to a new email address.
+// Our user has had a birthday! Without changing the original user object, increment the age
+// value using the postfix operator. Hint: age++
+
+user.email = "new@gmail.com"
+user.age++
+// console.log(user)
