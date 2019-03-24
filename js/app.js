@@ -194,7 +194,7 @@ function sumThreeFive(num){
 
 
 // Create an array that contains three quotes and store it in a variable called quotes.
-const quotes = ["that's my spot", "cool cool cool cool", "just do it"]
+const quotes = ["that's my spot", "cool cool cool cool", "just do it", "do it now and have peace"]
 
 // Given the following array const randomThings = [1, 10, "Hello", true]
 // How do you access the 1st element in the array?
@@ -393,11 +393,60 @@ function transmogrify(num1, num2, num3){
 
 
 function reverseWordOrder(string){
+  let words = ""
+  let newStr = ""
+  for(let i = 0; i < string.length; i++){
+    newStr += string[i];
+    if(string[i] == " "){
+      words += newStr
+      newStr = "";
+    }
+  }
+  if(newStr.length > 0){
+    words += newStr
+  }
+  return words
+}
+
+
+//console.log(reverseWordOrder("omay jen sam"))
+
+// Write a function that will return a random integer between 1 and 10. Test it.
+// Write a function that will return a random integer between 10 and 100. Test it.
+// Write a function that will return a random number between 532 and 13267. Test it.
+// Write a function that will return a random number between 1 and 10. Test it.
+// Add a few more quotes to the quotes array from question III-B-1 above. Write a function
+//  that will take an array as a parameter, and return a random element from that array.
+//  Call your function a few times, passing in the quotes array. Give it a nice semantic name
+//  like getRandomElement.
+
+
+function randomOne(){
+  return Math.ceil(Math.random()* 10)
+}
+//console.log(randomOne())
+
+function randomTen(){
+  return Math.floor(Math.random() * 91) + 10
+}
+//console.log(randomTen())
+
+function randomFive(){
+  return Math.floor(Math.random() * 12736 ) + 532
+}
+// console.log(randomFive())
+
+function randomOneAgain(){
+  return Math.ceil(Math.random()* 10)
+}
+// console.log(randomOneAgain())
+
+function getRandomElem(stringArr){
   let result = "";
-  for(let i = string.length-1; i >= 0; i--){
-    result += string[i];
+  for(let i = 0; i < stringArr.length; i++){
+    result = stringArr[Math.floor(Math.random()*stringArr.length)]
   }
   return result;
 }
 
-console.log(reverseWordOrder("omay"))
+// console.log(getRandomElem(quotes))
