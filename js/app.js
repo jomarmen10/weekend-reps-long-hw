@@ -470,3 +470,9 @@ const user = {
 user.email = "new@gmail.com"
 user.age++
 // console.log(user)
+
+
+// Without changing the original user object, add a new key location to the object, and give it
+// a value or some-or-other location (a string).
+user.location = "GA DTLA";
+console.log(user)
