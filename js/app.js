@@ -393,23 +393,28 @@ function transmogrify(num1, num2, num3){
 
 
 function reverseWordOrder(string){
-  let words = ""
+  let words = []
   let newStr = ""
   for(let i = 0; i < string.length; i++){
     newStr += string[i];
     if(string[i] == " "){
-      words += newStr
+      words.unshift(newStr)
       newStr = "";
     }
   }
   if(newStr.length > 0){
-    words += newStr
+    words.unshift(newStr)
   }
-  return words
+  let newResult = ""
+  for(let j = 0; j < words.length; j++){
+    newResult += words[j] + " ";
+  }
+  return newResult
 }
 
 
-//console.log(reverseWordOrder("omay jen sam"))
+
+ console.log(reverseWordOrder("omay jen sam"))
 
 // Write a function that will return a random integer between 1 and 10. Test it.
 // Write a function that will return a random integer between 10 and 100. Test it.
@@ -555,5 +560,5 @@ function oldAndLoud(person){
   person.name = person.name.toUpperCase()
 }
 
-oldAndLoud(user)
-console.log(user.name, user.age)
+// oldAndLoud(user)
+// console.log(user.name, user.age)
